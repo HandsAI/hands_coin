@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/everythink/time.git"
+    "url": "git+https://github.com/HandsAI/hands_coin.git"
   },
   "keywords": [
     "hands",
@@ -44,7 +44,7 @@
   "author": "Doble Cero",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/everythink/time/issues"
+    "url": "https://github.com/HandsAI/hands_coin/issues"
   },
-  "homepage": "https://github.com/everythink/time#readme"
+  "homepage": "https://github.com/HandsAI/hands_coin#readme"
 }

@@ -1,4 +1,4 @@
-![](http://hands.ai/images/favicon.png)
+![](https://hands.ai/wp-content/themes/hands/files/images/favicon.png)
 
 Hands HANDS Token
 =======================
@@ -30,13 +30,13 @@ Our HANDS Tokens serve several key functions in our ecosystem:
 - API license
 
 ## Token Sale
-The overall hard cap is 300,000,000 HANDS.
+The overall hard cap is 3.000,000,000 HANDS.
 
 Info | Pre-Sale  | Token Sale |
 | ------------- | ------------- | ------------- |
 Cap: | 7000 ETH  | (OVERALL CAP) – (PRE-SALE) |
-Starts: | 1th of March 2018 17:00 UTC | 1th of April 2018 17:00 UTC  |
-Ends: | 1st of April 2018 17:00 UTC | 1th of May 2018 17:00 UTC  |
+Starts: | 1th of October 2018 17:00 UTC | 1th of November 2018 17:00 UTC  |
+Ends: | 1st of December 2018 17:00 UTC | 1th of March 2019 17:00 UTC  |
 Exchange: | 1:11000 HANDS | Base Price = 1:10000 HANDS  |
 Currency: | ETH | ETH  |
 Bonuses: | 10% | 5%, 2.5%, 1.2%, 0.6%, 0%  |
@@ -50,8 +50,8 @@ There are five (5) bonus tiers for the token sale. The distribution of each tier
 
 Tier | # of ETH  | # of HANDS | Bonus | HANDS Per ETH
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-1 | +3,000  | +3,150,000 | 5.0% | 1 ETH – 10,050 HANDS |
-2 | +5,000 | +5,125,000 | 2.5% | 1 ETH - 10,025 HANDS |
-3 | +10,000 | +10,120,000 | 1.2% | 1 ETH – 10,012 HANDS |
-4 | +20,000 | +20,120,000 | 0.6% | 1 ETH – 10,006 HANDS |
-5 |  | Remaining HANDS | 0% | 1 ETH – 10,000 HANDS |
+1 | +3,000  | +126,000,000 | 5.0% | 1 ETH – 40,050 HANDS |
+2 | +5,000 | +205,000,000 | 2.5% | 1 ETH - 40,025 HANDS |
+3 | +10,000 | +404,800,000 | 1.2% | 1 ETH – 40,012 HANDS |
+4 | +20,000 | +804,800,000 | 0.6% | 1 ETH – 40,006 HANDS |
+5 |  | Remaining HANDS | 0% | 1 ETH – 40,000 HANDS |
