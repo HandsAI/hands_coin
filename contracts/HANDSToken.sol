@@ -1,8 +1,8 @@
-pragma solidity ^0.4.21;
+pragma solidity 0.4.24;
 
-import "zeppelin-solidity/contracts/token/PausableToken.sol";
-import "zeppelin-solidity/contracts/token/MintableToken.sol";
-import "./BurnableToken.sol";
+import "openzeppelin-solidity/contracts/token/ERC20/PausableToken.sol";
+import "openzeppelin-solidity/contracts/token/ERC20/MintableToken.sol";
+import "openzeppelin-solidity/contracts/token/ERC20/BurnableToken.sol";
 
 contract HANDSToken is BurnableToken, PausableToken, MintableToken {
 

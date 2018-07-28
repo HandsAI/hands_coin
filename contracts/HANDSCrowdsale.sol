@@ -1,11 +1,12 @@
-pragma solidity ^0.4.21;
+pragma solidity 0.4.24;
 
-import "zeppelin-solidity/contracts/crowdsale/CappedCrowdsale.sol";
-import "zeppelin-solidity/contracts/crowdsale/Crowdsale.sol";
-import "zeppelin-solidity/contracts/crowdsale/FinalizableCrowdsale.sol";
-import "./WhitelistedCrowdsale.sol";
+import "openzeppelin-solidity/contracts/crowdsale/validation/CappedCrowdsale.sol";
+import "openzeppelin-solidity/contracts/crowdsale/Crowdsale.sol";
+import "openzeppelin-solidity/contracts/crowdsale/distribution/FinalizableCrowdsale.sol";
+import "openzeppelin-solidity/contracts/crowdsale/validation/WhitelistedCrowdsale.sol";
 import "./HANDSContinuousSale.sol";
 import "./HANDSToken.sol";
+import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
 
 contract HANDSCrowdsale is WhitelistedCrowdsale, CappedCrowdsale, FinalizableCrowdsale {
 

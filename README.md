@@ -37,7 +37,7 @@ Info | Pre-Sale  | Token Sale |
 Cap: | 7000 ETH  | (OVERALL CAP) – (PRE-SALE) |
 Starts: | 1th of October 2018 17:00 UTC | 1th of November 2018 17:00 UTC  |
 Ends: | 1st of December 2018 17:00 UTC | 1th of March 2019 17:00 UTC  |
-Exchange: | 1:11000 HANDS | Base Price = 1:10000 HANDS  |
+Exchange: | 1:55000 HANDS | Base Price = 1:50000 HANDS  |
 Currency: | ETH | ETH  |
 Bonuses: | 10% | 5%, 2.5%, 1.2%, 0.6%, 0%  |
 Min. Transactional Amount: | 0.1 ETH | 0.1 ETH |
@@ -50,8 +50,8 @@ There are five (5) bonus tiers for the token sale. The distribution of each tier
 
 Tier | # of ETH  | # of HANDS | Bonus | HANDS Per ETH
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-1 | +3,000  | +126,000,000 | 5.0% | 1 ETH – 40,050 HANDS |
-2 | +5,000 | +205,000,000 | 2.5% | 1 ETH - 40,025 HANDS |
-3 | +10,000 | +404,800,000 | 1.2% | 1 ETH – 40,012 HANDS |
-4 | +20,000 | +804,800,000 | 0.6% | 1 ETH – 40,006 HANDS |
-5 |  | Remaining HANDS | 0% | 1 ETH – 40,000 HANDS |
+1 | +3,000  | +157,500,000 | 5.0% | 1 ETH – 52,500 HANDS |
+2 | +5,000 | +256,250,000 | 2.5% | 1 ETH - 51,250 HANDS |
+3 | +10,000 | +506,000,000 | 1.2% | 1 ETH – 50,600 HANDS |
+4 | +20,000 | +1.006,000,000 | 0.6% | 1 ETH – 50,300 HANDS |
+5 |  | Remaining HANDS | 0% | 1 ETH – 50,000 HANDS |
