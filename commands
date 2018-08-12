@@ -1,0 +1,100 @@
+
+#personal.newAccount("phrase para la vida")
+
+#personal.unlockAccount(web3.eth.coinbase, "phrase para la vida", 15000)
+#personal.unlockAccount("0x6C2900d68E83C165ce4f4760353A17fD49f7777B", "phrase para la vida", 300)
+
+#rinkeby
+personal.unlockAccount("0x6C2900d68E83C165ce4f4760353A17fD49f7777B")
+personal.unlockAccount(eth.coinbase,"Hands2017$")
+personal.newAccount("Hands2017$")
+web3.fromWei(web3.eth.getBalance('0x6c2900d68e83c165ce4f4760353a17fd49f7777b'),'ether').toString(10)
+alias geth = 'geth --ipcpath /Users/rebelius/Documents/rinkeby/chaindata/geth.ipc --rinkeby --etherbase \'0x6c2900d68e83c165ce4f4760353a17fd49f7777b\''
+
+geth --ipcpath /Users/rebelius/Documents/rinkeby/chaindata/geth.ipc --rinkeby --etherbase '0x6c2900d68e83c165ce4f4760353a17fd49f7777b' --syncmode 'fast' --cache=2048
+
+# check_balances:
+function checkAllBalances() {
+  var totalBal = 0;
+  for (var acctNum in eth.accounts) {
+      var acct = eth.accounts[acctNum];
+      var acctBal = web3.fromWei(eth.getBalance(acct), "ether");
+      totalBal += parseFloat(acctBal);
+      console.log("  eth.accounts[" + acctNum + "]: \t" + acct + " \tbalance: " + acctBal + " ether");
+  }
+  console.log("  Total balance: " + totalBal + " ether");
+};
+
+rinkeby nodes
+admin.addPeer("enode://1afcc068e3cd1f63ba9c303923c0f71cf1f0b8da4bfc58a7722243761b93d4a9febf77ffa15f60be6d6a90775880b620103bc65fd0db25973884dc819bd39208@121.140.198.92:30303");
+admin.addPeer("enode://3a2223f314b225978db3d284ece24d69f5752cefa229b7bc83b38fd5577975655e99d63d00bdec144dab2f3445378af2cd4a61d86d13727f870298444964a494@188.24.82.232:30305");
+admin.addPeer("enode://3a66898cf7497667c00bef21ddfae2166d227663fb20c9eebf9880ba15a41b3766b4e489a021f00f62042f44a4c203ee4b097ebc8d9da18319b486855af96d34@54.147.215.74:30303");
+admin.addPeer("enode://4192a9a8c893c2105bd388ca241333025dca8a989aeb86872ee5722a525d443e01ea2941318e8f1c303e6b3de6aa77ab62ce6538703bf6ace1cdc9e263e5168d@13.88.23.144:30303");
+admin.addPeer("enode://483c1910a306d333e3d94b2be55505a085dab2c242d55ed35022126ec5c8f3e15d54445367ad850e67b5048a6ad93fda2c77352acaee552a16ecdf9fe6ce73d4@188.24.97.9:40404");
+admin.addPeer("enode://518e25245fd8ce9328e07851a3c3c551d5ecab4419f2d6ff8beef5dda52fa28eddc72aec9bf518d04ccfe6fbeb715ccb9ced911f0b30394006873602bf9a06e4@192.99.14.22:30303");
+admin.addPeer("enode://69a38efbaf80b3e3a4bdee0ddfbb0ed944def83ed03dc15e4a5c2a0535c7492f9449f80527be8f3b286448d2886db02b6bf6ca23aaf3e7cb156994c194900724@34.207.245.10:30303");
+admin.addPeer("enode://98267578205c68fc09e917e67606d8cd6fefd3be84a17c26a9840af003fc8659bfdaf77128f22216aeeeee8d3ddd3470297d9a8b8c9581d31560f1a2b0964334@34.210.38.180:30303");
+admin.addPeer("enode://99764a629be40e243830c5c62ee899d8729df5de37121922e779367d168fdf57a8cb5bca06227342111c29bc9cd65f74c5b24a77dd70ae0eac94b15ae420e015@40.69.205.164:30303");
+admin.addPeer("enode://a24ac7c5484ef4ed0c5eb2d36620ba4e4aa13b8c84684e1b4aab0cebea2ae45cb4d375b77eab56516d34bfbd3c1a833fc51296ff084b770b94fb9028c4d25ccf@52.169.42.101:30303");
+admin.addPeer("enode://a8bb9e486c070a903a3bab33acee1df7780342fc57f308aacac6205a12566bab258077a5d519135ec38314d6bbccf16f57f1e036546418e8da6c9c186ce5a364@64.131.160.31:30304");
+admin.addPeer("enode://e2f33c1371ed97ccae5db4d047fed2bb0703ba414f63cfca81041b6fe1b06a636352a81e2da27937357db0ffc516ee03b08f2559a2cfcf1908792a6e0db8a4f8@54.89.154.66:30303");
+admin.addPeer("enode://f11c5bc2250e283f7a67dd5a0430216a53191b4e81ff9af698ce2adbe51f1833a4a7bd5d4d81b705c9f246123a0866bf64e33eb1c57057b1dbb43fd0a78e0b3a@172.245.14.179:30303");
+admin.addPeer("enode://fa32a124b9d080d30e660fe39533d35b42920e764c43e394d7c1e4d15d11c5473e10d5ab399d82279e969049c7009adaa79e803dbb3a645d695bf5db470d8e58@192.99.56.167:30303");
+
+
+eth._requestManager            eth.getBlockUncleCount         eth.getWork
+eth.accounts                   eth.getCode                    eth.hashrate
+eth.blockNumber                eth.getCoinbase                eth.iban
+eth.call                       eth.getCompilers               eth.icapNamereg
+eth.coinbase                   eth.getGasPrice                eth.isSyncing
+eth.compile                    eth.getHashrate                eth.mining
+eth.constructor                eth.getMining                  eth.namereg
+eth.contract                   eth.getPendingTransactions     eth.pendingTransactions
+eth.defaultAccount             eth.getProtocolVersion         eth.protocolVersion
+eth.defaultBlock               eth.getRawTransaction          eth.resend
+eth.estimateGas                eth.getRawTransactionFromBlock eth.sendIBANTransaction
+eth.filter                     eth.getStorageAt               eth.sendRawTransaction
+eth.gasPrice                   eth.getSyncing                 eth.sendTransaction
+eth.getAccounts                eth.getTransaction             eth.sign
+eth.getBalance                 eth.getTransactionCount        eth.signTransaction
+eth.getBlock                   eth.getTransactionFromBlock    eth.submitTransaction
+eth.getBlockNumber             eth.getTransactionReceipt      eth.submitWork
+eth.getBlockTransactionCount   eth.getUncle                   eth.syncing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+personal._requestManager personal.getListWallets  personal.newAccount
+personal.constructor     personal.importRawKey    personal.sendTransaction
+personal.deriveAccount   personal.listAccounts    personal.sign
+personal.ecRecover       personal.listWallets     personal.unlockAccount
+personal.getListAccounts personal.lockAccount
+
+
+admin.addPeer              admin.importChain          admin.startRPC
+admin.constructor          admin.isPrototypeOf        admin.startWS
+admin.datadir              admin.nodeInfo             admin.stopRPC
+admin.exportChain          admin.peers                admin.stopWS
+admin.getDatadir           admin.propertyIsEnumerable admin.toLocaleString
+admin.getNodeInfo          admin.removePeer           admin.toString
+admin.getPeers             admin.sleep                admin.valueOf
+admin.hasOwnProperty       admin.sleepBlocks
+
+miner.constructor          miner.setEtherbase         miner.toLocaleString
+miner.getHashrate          miner.setExtra             miner.toString
+miner.hasOwnProperty       miner.setGasPrice          miner.valueOf
+miner.isPrototypeOf        miner.start
+miner.propertyIsEnumerable miner.stop

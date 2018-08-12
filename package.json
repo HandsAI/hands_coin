@@ -1,0 +1,35 @@
+{
+  "name": "hands_coin",
+  "version": "1.0.0",
+  "description": "Solidity Contracts for the Hands HANDS Token",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matias Baglieri",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "openzeppelin-solidity": "1.11.0",
+    "truffle-flattener": "^1.2.5",
+    "truffle-hdwallet-provider": "0.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HandsAI/hands_coin.git"
+  },
+  "keywords": [
+    "hands",
+    "time",
+    "solidity",
+    "truffle",
+    "crowdsale"
+  ],
+  "bugs": {
+    "url": "https://github.com/HandsAI/hands_coin/issues"
+  },
+  "homepage": "https://github.com/HandsAI/hands_coin#readme"
+}
